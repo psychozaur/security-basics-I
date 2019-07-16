@@ -29,6 +29,7 @@ dependencies {
     implementation 'org.webjars:webjars-locator:0.30'
     implementation 'org.webjars:bootstrap:4.0.0'
 //     TODO 1 Dodaj zależność dla spring security
+    implementation 'org.springframework.boot:spring-boot-starter-security'
 //     TODO 2 Uruchom aplikację i użyj wygenerowane hasło do zalogowania się (domyślny użytkownik: user, hasło w logu)
     implementation 'nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:2.3.0'
     runtimeOnly 'org.springframework.boot:spring-boot-devtools'
